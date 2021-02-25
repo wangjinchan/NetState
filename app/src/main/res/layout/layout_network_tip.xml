@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#F3E7F5"
+        android:layout_height="38dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginStart="15sp"
+            android:src="@drawable/warnning"
+            android:layout_marginLeft="15sp" />
+        <TextView
+            android:id="@+id/text"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="网络连接不可用，请检查网络设置"
+            android:textColor="#7A6E6E"
+            android:textSize="15sp"
+            android:layout_marginLeft="15sp"
+            tools:ignore="HardcodedText"
+           />
+    </LinearLayout>
+
+
+</LinearLayout>
